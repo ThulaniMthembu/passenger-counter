@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: grey;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 50px;
+  background-image: url('https://optim.tildacdn.net/tild3530-6563-4266-b563-633935656165/-/resize/690x/-/format/webp/firebird2176_A_photo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  backdrop-filter: blur(5px);
+}
+
+#counter-container {
+  max-width: 100%;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  background-color: gray;
+  opacity: 0.8;
+}
+
+h1 {
+  padding: 10px 0;
+}
+
+#count-el {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.button {
+  cursor: pointer;
+  width: 50%;
+  margin: 10px auto;
+  padding: 5px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  background-color: antiquewhite;
+}
+
+#saveBtn {
+  background-color: green;
+}
+
+.button:hover {
+  background-color: black;
+  color: antiquewhite;
+}
+
+#update {
+  margin: 10px;
+}
